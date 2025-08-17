@@ -58,5 +58,5 @@ Instead of giving full solutions, it provides **progressive hints** (Concept →
 
 💡 Inspiration
 
-Solving problems isn’t about memorizing solutions – it’s about learning how to think.
+Solving problems isn’t about memorizing solutions; it’s about learning how to think.
 Student Buddy makes that journey easier and more fun 🚀.
