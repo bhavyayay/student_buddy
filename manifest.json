@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Student Buddy",
+  "version": "1.0.3",
+  "description": "Progressive, difficulty-aware hints for LeetCode.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://www.leetcode.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Student Buddy"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
